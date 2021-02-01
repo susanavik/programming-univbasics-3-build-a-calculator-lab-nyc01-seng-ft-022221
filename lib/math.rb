@@ -1,8 +1,11 @@
-def addition(1, 3)
+def addition(num1, num2)
   num1 + num2
 end
 
-addition(1, 3)
+num1 = '1'
+num3 = '3'
+
+addition(num1, num2) 
 
 def subtraction(num1, num2)
 
