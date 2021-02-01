@@ -26,7 +26,7 @@ num2 = '1'
 division(num1, num2)
 
 def multiplication(num1, num2)
-  sum = num1.to_i * num2.to_1
+  sum = num1.to_i * num2.to_i
   puts '#{sum}'
 end
 
