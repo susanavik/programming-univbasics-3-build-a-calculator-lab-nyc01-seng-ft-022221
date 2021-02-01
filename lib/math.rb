@@ -7,10 +7,14 @@ num1= '1'
 num2 = '3'
 addition(num1, num2)
 
-
 def subtraction(num1, num2)
-
+  sum = num1.to_i - num2.to_i
+  pits "#{sum}"
 end
+
+num1= '1'
+num2 = '3'
+subtraction(num1, num2)
 
 def division(num1, num2)
 
