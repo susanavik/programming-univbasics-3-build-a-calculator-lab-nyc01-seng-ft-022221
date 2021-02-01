@@ -9,7 +9,7 @@ addition(num1, num2)
 
 def subtraction(num1, num2)
   sum = num1.to_i - num2.to_i
-  pits "#{sum}"
+  puts "#{sum}"
 end
 
 num1= '1'
