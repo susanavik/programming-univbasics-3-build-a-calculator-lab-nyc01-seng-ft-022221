@@ -44,7 +44,7 @@ num2 = '3'
 modulo(num1, num2)
 
 def square_root(num)
-  sum = Math.sqrt(num)
+  sum = Math.sqrt(num.to_i)
   puts "#{sum}"
 end
 
