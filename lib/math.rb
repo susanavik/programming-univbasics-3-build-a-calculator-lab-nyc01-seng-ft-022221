@@ -1,10 +1,10 @@
 def addition(num1, num2)
-  sum = num1 + num2
+  sum = num1.to_i + num2.to_i
   puts "#{sum}"
 end
 
-num1.to_i = '1'
-num2.to_i = '3'
+num1= '1'
+num2 = '3'
 addition(num1, num2)
 
 
