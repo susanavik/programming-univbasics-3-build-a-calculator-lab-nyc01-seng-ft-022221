@@ -1,9 +1,11 @@
 def addition(num1, num2)
-  num1 + num2
+  sum = num1 + num2
+  puts "#{sum}"
 end
 
 num1 = '1'
 num2 = '3'
+addition(num1, num2)
 
 addition(num1, num2) 
 
