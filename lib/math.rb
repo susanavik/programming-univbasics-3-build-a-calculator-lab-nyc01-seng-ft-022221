@@ -1,6 +1,7 @@
 def addition(num1, num2)
   sum = num1.to_i + num2.to_i
   puts "#{sum}"
+  return sum
 end
 
 num1 = '5'
@@ -10,6 +11,7 @@ addition(num1, num2)
 def subtraction(num1, num2)
   sum = num1.to_i - num2.to_i
   puts "#{sum}"
+  return sum
 end
 
 num1 = '10'
@@ -19,6 +21,7 @@ subtraction(num1, num2)
 def division(num1, num2)
   sum = num1.to_i / num2.to_i
   puts "#{sum}"
+  return sum
 end
 
 num1 = '50'
@@ -28,6 +31,7 @@ division(num1, num2)
 def multiplication(num1, num2)
   sum = num1.to_i * num2.to_i
   puts "#{sum}"
+  return sum
 end
 
 num1 = '4'
@@ -37,6 +41,7 @@ multiplication(num1, num2)
 def modulo(num1, num2)
   sum = num1.to_i % num2.to_i
   puts "#{sum}"
+  return sum
 end
 
 num1 = '34'
