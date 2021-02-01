@@ -1,9 +1,8 @@
-def addition(num1, num2)
-  sum == 'num1 + num2'
-  puts "sum"
+def addition(1, 3)
+  num1 + num2
 end
 
-addition(2,4)
+addition(1, 3)
 
 def subtraction(num1, num2)
 
