@@ -35,9 +35,18 @@ num2 = '3'
 multiplication(num1, num2)
 
 def modulo(num1, num2)
-
+  sum = num1.to_i % num2.to_i
+  puts "#{sum}"
 end
+
+num1 = '10'
+num2 = '3'
+modulo(num1, num2)
 
 def square_root(num)
-  math.sqrt(81)
+  sum = math.sqrt(num)
+  puts "#{sum}"
 end
+
+num = '81'
+square_root(num)
