@@ -3,7 +3,7 @@ def addition(num1, num2)
 end
 
 num1 = '1'
-num3 = '3'
+num2 = '3'
 
 addition(num1, num2) 
 
